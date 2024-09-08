@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles.css">
         <meta charset="utf-8">
         <title>Odin Recipes</title>
     </head>
     <body>
         <h1>Odin Recipes</h1>
-        <img src="images/recipebook.jpg" alt="A recipe book" height="250" width="350">
-        <ul>
-            <li><a href="recipes/lasagna.html">Lasagna Recipe</a></li>
-            <li><a href="recipes/caesarsalad.html">Caesar Salad Recipe</a></li>
-            <li><a href="recipes/hotchocolate.html">Hot Chocolate Recipe</a></li>
-        </ul>
+        <img id="Book" src="images/recipebook.jpg" alt="A recipe book" height="250" width="350">
+        <div class="RecipeList">
+            <ul>
+                <li id="Lasagna"><a href="recipes/lasagna.html"><span>Lasagna Recipe</span></a></li>
+                <li id="Salad"><a href="recipes/caesarsalad.html"><span>Caesar Salad Recipe</span></a></li>
+                <li id="Chocolate"><a href="recipes/hotchocolate.html"><span>Hot Chocolate Recipe</span></a></li>
+            </ul>
+        </div>
     </body>
 </html>

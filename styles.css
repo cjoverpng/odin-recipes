@@ -1,0 +1,41 @@
+/*styles.css*/
+
+h1{
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0, 0, 131);
+    text-align: center;
+}
+
+#Book{
+    display: block;
+    margin: auto;
+    margin-bottom:8px;
+}
+
+.RecipeList ul {
+    color:#FFF;
+    font-weight:normal;
+    font-size:25px;
+}
+
+.RecipeList li{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+
+.RecipeList li span {
+    display:list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left:16px;
+}
+
+#Lasagna {
+   margin-left: 560px;
+}
